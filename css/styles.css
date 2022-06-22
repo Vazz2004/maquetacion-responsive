@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.caja1{
+    background-color:violet;
+    height: 5rem;
+}
+
+
+.caja2{
+    background-color:blue;
+    height: 3rem;
+}
+
+
+.caja3{
+    background-color:greenyellow;
+    height: 25rem;
+}
+.caja4{
+    background-color:yellow;
+    height: 5rem;
+}
+
+
+
+.caja6{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 25rem;
+    display: inline-block;
+    border: solid #fff 10px;
+ 
+}
+
+
+.caja5{
+    display: flex;
+    justify-content: center;
+    background-color:yellow;
+    height: 25rem;
+    margin-bottom: 20px;
+   border: solid  #fff 10px;
+}
+
+
+.alturaBlanco{
+    background-color: white;
+    height: 5rem;
+}
+
+
+
+.caja7{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 20rem;
+    border-left: #fff solid 10px;
+}
+.caja71{
+    display: flex;
+    justify-content: center;
+    background-color:palegoldenrod;
+    height: 20rem;
+    border-left: #fff solid 10px;
+}
+
+
+.caja72{
+    display: flex;
+    justify-content: center;
+    background-color:orangered;
+    height: 20rem;
+    border-left: #fff solid 10px;
+}
+
+.linea{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: solid 1px gainsboro;
+}
+
+
+.caja9{
+    display: flex;
+    justify-content: center;
+    background-color:yellow;
+    height: 25rem;
+    margin-bottom: 20px;
+   border: solid  #fff 10px;
+
+}
+
+.caja8{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 25rem;
+    display: inline-block;
+    border: solid #fff 10px;
+    
+}
+
+.caja10{
+    display: flex;
+    justify-content: center;
+    background-color: plum;
+    height: 20rem;
+    border-left: #fff solid 10px;
+}
+
+
+.caja11{
+    display: flex;
+    justify-content: center;
+    background-color:palegreen;
+    height: 20rem;
+    border-left: #fff solid 10px;
+}
+
+
+.caja12{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 20rem;
+    border-left: #fff solid 10px;
+}
+
+/* media querie */
+
+
+@media(max-width: 576px ){
+   
+ 
+.caja6{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 25rem;
+    display: inline-block;
+    border: solid #fff 0px;
+ 
+}
+
+
+.caja5{
+    display: flex;
+    justify-content: center;
+    background-color:yellow;
+    height: 25rem;
+    margin-bottom: 20px;
+   border: solid  #fff 0px;
+}
+
+
+.alturaBlanco{
+    background-color: white;
+    height: 5rem;
+}
+
+
+
+.caja7{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 20rem;
+    border-left: #fff solid 0px;
+}
+
+
+.linea{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: solid 1px gainsboro;
+}
+
+
+.caja9{
+    display: flex;
+    justify-content: center;
+    background-color:yellow;
+    height: 25rem;
+    margin-bottom: 20px;
+   border: solid  #fff 0px;
+
+}
+
+.caja8{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 25rem;
+    display: inline-block;
+    border: solid #fff 0px;
+    
+}
+
+.caja71{
+    display: flex;
+    justify-content: center;
+    background-color:palegoldenrod;
+    height: 20rem;
+    border-left: #fff solid 0px;
+}
+
+
+.caja72{
+    display: flex;
+    justify-content: center;
+    background-color:orangered;
+    height: 20rem;
+    border-left: #fff solid 0px;
+}
+
+.caja10{
+    display: flex;
+    justify-content: center;
+    background-color: plum;
+    height: 20rem;
+    border-left: #fff solid 0px;
+}
+
+
+.caja11{
+    display: flex;
+    justify-content: center;
+    background-color:palegreen;
+    height: 20rem;
+    border-left: #fff solid 0px;
+}
+
+
+.caja12{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 20rem;
+    border-left: #fff solid 0px;
+}
+
+  
+  
+}
